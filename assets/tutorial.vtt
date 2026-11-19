@@ -1,0 +1,113 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:06.330
+Seleccionamos a PINFRA como organización real y delimitamos la necesidad de capacitación en conservación de carreteras
+
+00:00:06.330 --> 00:00:12.660
+El proyecto es una propuesta académica
+
+00:00:12.660 --> 00:00:18.990
+Se excluyeron todos los recursos de Vía Verde Educativa
+
+00:00:18.990 --> 00:00:25.320
+La ruta nueva incluye reconocer, registrar, planear, atender y verificar.
+
+00:00:25.320 --> 00:00:30.034
+Las láminas y la infografía se construyeron con Python y Pillow
+
+00:00:30.034 --> 00:00:34.747
+Primero definimos dimensiones y jerarquía tipográfica
+
+00:00:34.747 --> 00:00:39.461
+Después dibujamos fondos, títulos y campos del reporte
+
+00:00:39.461 --> 00:00:44.174
+Exportamos las imágenes en PNG y las guardamos en la carpeta assets
+
+00:00:44.174 --> 00:00:48.888
+Cada imagen tiene una función explicativa.
+
+00:00:48.888 --> 00:00:55.374
+Redactamos textos propios para cada etapa
+
+00:00:55.374 --> 00:01:01.860
+Se generó voz sintética en español mediante g T T S; no es una grabación de Vicente
+
+00:01:01.860 --> 00:01:08.346
+Con FFmpeg combinamos cada lámina con su narración y concatenamos los segmentos en un video MP4
+
+00:01:08.346 --> 00:01:14.832
+La guía de audio se produjo por separado y se normalizó su volumen.
+
+00:01:14.832 --> 00:01:19.426
+La animación se produjo con cincuenta cuadros
+
+00:01:19.426 --> 00:01:24.019
+Un resaltado avanza por las cinco etapas del proceso
+
+00:01:24.019 --> 00:01:28.613
+Se exportó como GIF
+
+00:01:28.613 --> 00:01:33.206
+En el sitio no comienza automáticamente: el usuario puede reproducirla y detenerla
+
+00:01:33.206 --> 00:01:37.800
+La secuencia también aparece en texto para que el mensaje no dependa del movimiento.
+
+00:01:37.800 --> 00:01:43.166
+Se guardaron los archivos en assets y se crearon referencias relativas en index punto html
+
+00:01:43.166 --> 00:01:48.533
+Para imágenes usamos la etiqueta img con descripción alternativa
+
+00:01:48.533 --> 00:01:53.899
+Para audio usamos audio controls
+
+00:01:53.899 --> 00:01:59.266
+El video se insertó mediante video y source
+
+00:01:59.266 --> 00:02:04.632
+La etiqueta track vincula los subtítulos V T T, cuya segmentación es aproximada.
+
+00:02:04.632 --> 00:02:09.878
+En la página inicial, el botón Comenzar lleva a los módulos
+
+00:02:09.878 --> 00:02:15.125
+Cada módulo tiene un caso desplegable
+
+00:02:15.125 --> 00:02:20.371
+Multimedia reúne video, audio y animación
+
+00:02:20.371 --> 00:02:25.618
+La sección de práctica permite capturar un reporte con datos ficticios y descargarlo como texto
+
+00:02:25.618 --> 00:02:30.864
+El formulario funciona en el navegador y no envía datos a PINFRA.
+
+00:02:30.864 --> 00:02:36.158
+El cuestionario contiene cinco preguntas con retroalimentación
+
+00:02:36.158 --> 00:02:41.453
+La meta propuesta es cuatro respuestas correctas
+
+00:02:41.453 --> 00:02:46.747
+Los controles permiten decidir cuándo reproducir los medios
+
+00:02:46.747 --> 00:02:52.042
+El sitio incluye transcripciones, subtítulos y estilos adaptables
+
+00:02:52.042 --> 00:02:57.336
+Debe revisarse visualmente y probarse con usuarios antes de adoptarlo para capacitación operativa.
+
+00:02:57.336 --> 00:03:05.850
+El paquete incluye index punto html, styles punto css, app punto js y assets
+
+00:03:05.850 --> 00:03:14.364
+Para publicarlo en GitHub Pages, se debe usar un repositorio nuevo, cargar la carpeta del sitio y activar Pages desde main y root
+
+00:03:14.364 --> 00:03:22.878
+El enlace del sitio y el enlace directo del videotutorial solo se incorporarán al documento después de verificar la publicación
+
+00:03:22.878 --> 00:03:31.392
+No se utiliza la dirección del proyecto anterior.
+

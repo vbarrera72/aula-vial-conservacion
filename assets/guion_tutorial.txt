@@ -1,0 +1,23 @@
+1. Planeación del proyecto
+Seleccionamos a PINFRA como organización real y delimitamos la necesidad de capacitación en conservación de carreteras. El proyecto es una propuesta académica. Se excluyeron todos los recursos de Vía Verde Educativa. La ruta nueva incluye reconocer, registrar, planear, atender y verificar.
+
+2. Producción de imágenes
+Las láminas y la infografía se construyeron con Python y Pillow. Primero definimos dimensiones y jerarquía tipográfica. Después dibujamos fondos, títulos y campos del reporte. Exportamos las imágenes en PNG y las guardamos en la carpeta assets. Cada imagen tiene una función explicativa.
+
+3. Audio y video educativo
+Redactamos textos propios para cada etapa. Se generó voz sintética en español mediante g T T S; no es una grabación de Vicente. Con FFmpeg combinamos cada lámina con su narración y concatenamos los segmentos en un video MP4. La guía de audio se produjo por separado y se normalizó su volumen.
+
+4. Animación original
+La animación se produjo con cincuenta cuadros. Un resaltado avanza por las cinco etapas del proceso. Se exportó como GIF. En el sitio no comienza automáticamente: el usuario puede reproducirla y detenerla. La secuencia también aparece en texto para que el mensaje no dependa del movimiento.
+
+5. Integración de los medios
+Se guardaron los archivos en assets y se crearon referencias relativas en index punto html. Para imágenes usamos la etiqueta img con descripción alternativa. Para audio usamos audio controls. El video se insertó mediante video y source. La etiqueta track vincula los subtítulos V T T, cuya segmentación es aproximada.
+
+6. Funcionamiento del sitio
+En la página inicial, el botón Comenzar lleva a los módulos. Cada módulo tiene un caso desplegable. Multimedia reúne video, audio y animación. La sección de práctica permite capturar un reporte con datos ficticios y descargarlo como texto. El formulario funciona en el navegador y no envía datos a PINFRA.
+
+7. Evaluación y accesibilidad
+El cuestionario contiene cinco preguntas con retroalimentación. La meta propuesta es cuatro respuestas correctas. Los controles permiten decidir cuándo reproducir los medios. El sitio incluye transcripciones, subtítulos y estilos adaptables. Debe revisarse visualmente y probarse con usuarios antes de adoptarlo para capacitación operativa.
+
+8. Publicación y entrega
+El paquete incluye index punto html, styles punto css, app punto js y assets. Para publicarlo en GitHub Pages, se debe usar un repositorio nuevo, cargar la carpeta del sitio y activar Pages desde main y root. El enlace del sitio y el enlace directo del videotutorial solo se incorporarán al documento después de verificar la publicación. No se utiliza la dirección del proyecto anterior.

@@ -1,0 +1,12 @@
+REPORTE SIMULADO DE CONSERVACIÓN
+Tramo:
+Kilómetro:
+Sentido:
+Carril o margen:
+Fecha:
+Elemento:
+Hallazgo observable:
+Evidencia:
+Responsable de revisión:
+Actividad autorizada:
+Resultado y pendientes:
